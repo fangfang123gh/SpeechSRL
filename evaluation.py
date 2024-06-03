@@ -122,3 +122,4 @@ with open(args.save_path, 'w', encoding='utf-8') as fout:
        
 get_metric(aligner, args.save_path, args.test_path, True)
 calculate_WER(reference, response)
+aligner.close()
