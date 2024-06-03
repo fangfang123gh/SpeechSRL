@@ -1,0 +1,4 @@
+/data/lxx/fast_align_zms/build_new/CMakeFiles/fast_align.dir
+/data/lxx/fast_align_zms/build_new/CMakeFiles/atools.dir
+/data/lxx/fast_align_zms/build_new/CMakeFiles/edit_cache.dir
+/data/lxx/fast_align_zms/build_new/CMakeFiles/rebuild_cache.dir

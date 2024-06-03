@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -std=c++11 -O3 -g -fopenmp -rdynamic CMakeFiles/fast_align.dir/src/fast_align.cc.o CMakeFiles/fast_align.dir/src/ttables.cc.o -o fast_align 
