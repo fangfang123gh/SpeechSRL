@@ -229,4 +229,4 @@ if training_args.local_rank == 0 or training_args.local_rank == -1:
 
     model.whisper_model.save_pretrained(os.path.join(output_dir, "checkpoint-final-asr"))
     torch.save(model.srl_model.state_dict(), os.path.join(output_dir, "final.pth"))
-
+aligner.close()
