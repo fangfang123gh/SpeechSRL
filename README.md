@@ -71,6 +71,7 @@ For Whisper◦SRLGParser, which is a end-to-end learning model and performs best
 is_e2e=True
 is_use_gumbel_softmax_loss=True
 ```
+**Notes** If you want to reproduce the result of the paper, use `get_metric_old.py` when training, we have updated the mapping function to get better alignment in `get_metric.py`.
 
 ## Evaluate
 ```
