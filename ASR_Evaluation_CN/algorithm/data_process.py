@@ -4,7 +4,8 @@ delete some symbols like ', . ? ! ，。？~！'
 """
 import cn2an
 
-NEED_DEL_SYMBOLS = [',', '.', '?', '，', '。', '？', '、', '?', '\n', '\t', ' ']
+NEED_DEL_SYMBOLS = [',', '.', '?', '，', '。', '？', '、', '?', '\n', '\t', 
+    ' ', '（', '）', '-', '“', '”', '！', '；', '：',  '、', '——']
 
 
 def del_symbol(texts: str):
