@@ -101,9 +101,8 @@ with open(args.save_path, 'w', encoding='utf-8') as fout:
 
                             filter_notChinese += decoded_label[i]
                             
-                        elif len(token_id) == 0:
-
-                            filter_notChinese += decoded_label[i]
+                    if len(filter_notChinese) == 0:
+                        continue
 
                     map_srl = process_label_with_aligner(filter_notChinese, text, srl_label, aligner)['srl']
-                    fout.write(json.dumps({'text': filter_notChinese, 'srl': map_srl}, ensure_ascii=False)+'\n')
+                    fout.write(json.dumps({'text': filter_notChinese, 'srl': map_srl, 'gold_text': text}, ensure_ascii=False)+'\n')
